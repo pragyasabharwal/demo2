@@ -4,11 +4,11 @@ import React, { Suspense } from 'react'
 
 let Render
 
-if (window.location.href.split('-')[0] === 'https://client1/') {
+if (window.location.href.split('-')[0] === 'https://client1') {
   Render = 'amazon'
 } 
 
-if(window.location.href.split('-')[0] === 'https://client2/'){
+if(window.location.href.split('-')[0] === 'https://client2'){
   Render = 'modified'
 }
 
